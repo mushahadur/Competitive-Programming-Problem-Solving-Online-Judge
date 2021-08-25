@@ -2,7 +2,8 @@
 #include<math.h>
 int main()
 {
- printf("%d",acos);
+ //printf("%d",acos);
+ printf("PUlcok\n");
 
 
     return 0;
