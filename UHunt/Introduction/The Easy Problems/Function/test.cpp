@@ -1,3 +1,4 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 int sum_of_digit(int num);
@@ -45,21 +46,21 @@ int main()
             }
         }
 
-        cout<<"temp "<<temp<<endl;
-        cout<<"temp1 "<<temp1<<endl;
+        //cout<<"temp "<<temp<<endl;
+        //cout<<"temp1 "<<temp1<<endl;
 
         first = sum_of_digit(temp);
-        cout<<"First "<<first<<endl;
+        //cout<<"First "<<first<<endl;
         second = sum_of_digit(temp1);
-        cout<<"second "<<second<<endl;
+        //cout<<"second "<<second<<endl;
 
         big=max(first,second);
-        cout<<"big "<<big<<endl;
+        //cout<<"big "<<big<<endl;
         small=min(first,second);
-        cout<<"small "<<small<<endl;
+        //cout<<"small "<<small<<endl;
 
         rate = (small/big)*100;
-        printf("\nResult  : %.2f\n",rate);
+        printf("\nResult of Love Percentage   : %.2f %\n",rate);
         cout<<endl;
         return 0;
         //scanf("%*c");
@@ -98,3 +99,20 @@ int summing(int num)
     return num;
 }
 
+
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   string s = "Pulock";
+   for(auto c:s)
+   {
+       cout<<c;
+
+   }
+
+    return 0;
+}
+*/
