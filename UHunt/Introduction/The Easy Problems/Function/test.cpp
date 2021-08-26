@@ -1,22 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
-//int sum_of_digit(int num);
-//int summing(int num);
+int sum_of_digit(int num);
+int summing(int num);
 int main()
 {
-    char a[11],b[111];
-    while(scanf("%[^\n]s%*c%*c%[^\n]s",&a,&b)!=EOF)
-    {
-        cout<<"a   "<<a<<endl;
-        cout<<"b   "<<b<<endl;
 
-       scanf("%*c");
-
-    }
-
-
-
-    /*
     char first_name[111], second_name[100];
     int temp=0,temp1=0,i,j,first,second,first_len,second_len;
     float rate,big,small;
@@ -71,15 +59,15 @@ int main()
         cout<<"small "<<small<<endl;
 
         rate = (small/big)*100;
-        printf("%.2f\n",rate);
+        printf("\nResult  : %.2f\n",rate);
         cout<<endl;
         return 0;
-        scanf("%*c");
+        //scanf("%*c");
     }
-    */
+
     return 0;
 }
-/*
+
 int sum_of_digit(int num)
 {
     if (10<=num)
@@ -109,4 +97,4 @@ int summing(int num)
     }
     return num;
 }
-*/
+
