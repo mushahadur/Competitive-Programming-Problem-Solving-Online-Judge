@@ -6,15 +6,25 @@ int main()
 {
     optimize();
 
-    map<int, int>v;
-    int t;
+    int t,n,arr[100000];
     cin>>t;
-    while(t--)
-    {
-
-        int n;
+    while(t--){
         cin>>n;
+        for(int i=0; i<n; i++){
+            cin>>arr[i];
+        }
+        for(int j=1; j<=n;j++){
+                int temp = j;
+            if(arr[j]%2=!0){
+                j+=2;
+            }
+            else{
+               j+=2;
+            }
+        }
+
     }
+
 
     return 0;
 }
