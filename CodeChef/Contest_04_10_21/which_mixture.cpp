@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int t,a,b;
+   cin>>t;
+   while(t--){
+    cin>>a>>b;
+    if( (a+b)>0 ){
+    if(a>0 && b>0)cout<<"Solution"<<endl;
+    else if(a>0)cout<<"Solid"<<endl;
+    else if(b>0)cout<<"Liquid"<<endl;
+    }
+   }
+
+    return 0;
+}
